@@ -1,0 +1,31 @@
+.xfce4-panel#XfcePanelWindow {
+        border-radius: 14px;
+}
+
+.xfce4-panel .tasklist .toggle :checked {
+  border-radius: 10px;
+}
+ 
+.tasklist button:checked {
+  border-bottom: 3px #83C092;
+}
+ 
+.flat,
+.toggle {
+  font-family: 'Iosevka Nerd Font Regular';
+  font-size: 16px;
+  padding: 4px;
+}
+.flat:hover,
+.toggle:hover {
+  font-family: 'Iosevka Nerd Font Regular';
+  font-size: 16px;
+  padding: 4px;
+}
+.flat:checked,
+.toggle:checked {
+  font-family: 'Iosevka Nerd Font Regular';
+  font-size: 16px;
+  border-bottom: 3px solid #83C092;
+  padding: 4px;
+}
