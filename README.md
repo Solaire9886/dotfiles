@@ -2,17 +2,28 @@
 
 Hello! In this repo are most of the files you'd need to replicate or make your own spin of my XFCE config. Some of the files are fairly straight-forward enough to just drop in, but others you'll need to tweak a little yourself to get working, if you want to use them at all.
 
+<table>
+  <tr>
+    <td><img src="screenshots/ss1.png" width="450"></td>
+    <td><img src="screenshots/ss2.png" width="450"></td>
+  </tr>
+  <tr>
+    <td><img src="screenshots/ss3.png" width="450"></td>
+    <td><img src="screenshots/ss4.png" width="450"></td>
+  </tr>
+</table>
+
 # GTK, Icons & Fonts
 
 Inside the .config directory is the gtk-3.0 folder, that can simply be dropped in as the CSS only defines things such as the panel roundness and element highlights (such as for the workplace switcher and some buttons).
 
-The GTK theme is taken from **Fkorpsvart's** Everforest theme [here] (https://www.pling.com/p/1695467). I opted for the MacOS buttons and borderless windows, but that is ultimately up to you.
+The GTK theme is taken from **Fkorpsvart's** Everforest theme [here](https://www.pling.com/p/1695467). I opted for the MacOS buttons and borderless windows, but that is ultimately up to you.
 
-Icons are taken from **Eleuth's** [Gruvbox Plus Icon Pack] (https://www.gnome-look.org/p/1961046), there he provides some info on how you can change the folder colors after installing.
+Icons are taken from **Eleuth's** [Gruvbox Plus Icon Pack](https://www.gnome-look.org/p/1961046), there he provides some info on how you can change the folder colors after installing.
 
-My personal font choice was the Iosevka fonts from the [Nerd Fonts] (https://www.nerdfonts.com/) website, which you can find on their downloads page. Starship **requires** a nerd font for the icons and powerline theme to work so even if you don't want Iosevka specifically, make sure you're using a nerd font!
+My personal font choice was the Iosevka fonts from the [Nerd Fonts](https://www.nerdfonts.com/) website, which you can find on their downloads page. Starship **requires** a nerd font for the icons and powerline theme to work so even if you don't want Iosevka specifically, make sure you're using a nerd font!
 
-Cursor theme is from **Sainnhe's** [Capitaine Cursors] (https://www.gnome-look.org/p/1818760), I used the gruvbox version specifically.
+Cursor theme is from **Sainnhe's** [Capitaine Cursors](https://www.gnome-look.org/p/1818760), I used the gruvbox version specifically.
 
 After installing the themes, icons and fonts you want, dropping the right folders into your .themes, .fonts and .icons directories respectively should make them detectable by the XFCE appearance menu. Cursors go into the .icons directory as well, alongside your other system icon themes.
 
@@ -24,17 +35,17 @@ Programs/tools in my bashrc include:
 
 **(Aliases)**
 
-- [Copyparty] (https://github.com/9001/copyparty)
+- [Copyparty](https://github.com/9001/copyparty)
 
-- [lsd] (https://github.com/lsd-rs/lsd)
+- [lsd](https://github.com/lsd-rs/lsd)
 
 **(Evals)**
 
-- [Starship] (https://starship.rs/)
+- [Starship](https://starship.rs/)
 
-- [Zoxide] (https://github.com/ajeetdsouza/zoxide)
+- [Zoxide](https://github.com/ajeetdsouza/zoxide)
 
-- [fzf] (https://github.com/junegunn/fzf)
+- [fzf](https://github.com/junegunn/fzf)
 
 # Starship
 
@@ -42,15 +53,15 @@ Upon installing starship, you can drop the **starship.toml** file in your .confi
 
 # Fastfetch
 
-Fastfetch is the Neofetch alternative which you can download [here] (https://github.com/fastfetch-cli/fastfetch). My config is a simple modification of one of the pre-existing presets that Fastfetch comes with, you can read their documentation to make one yourself or modify the existing ones.
+Fastfetch is the Neofetch alternative which you can download [here](https://github.com/fastfetch-cli/fastfetch). My config is a simple modification of one of the pre-existing presets that Fastfetch comes with, you can read their documentation to make one yourself or modify the existing ones.
 
 # Discord
 
-As the directory suggests, you need [Better Discord] (https://betterdiscord.app/) for this CSS to work! I personally have some issues with the theme crashing or it being disabled with every new Discord update, so use at your own discretion.
+As the directory suggests, you need [Better Discord](https://betterdiscord.app/) for this CSS to work! I personally have some issues with the theme crashing or it being disabled with every new Discord update, so use at your own discretion.
 
 # Genmon Config
 
-The music player you can see on the panel is a modified version of [this] (https://github.com/rod-farias/XFCE-GenMon-Now-Playing) awesome plugin. The read-me has some important information on how to get it working, so do refer to it if you don't know how to setup genmon yourself. My modification makes the text scroll, compacts it so it doesn't take up too much space, and move the play/pause clicking to be exclusive to the button itself.
+The music player you can see on the panel is a modified version of [this](https://github.com/rod-farias/XFCE-GenMon-Now-Playing) awesome plugin. The read-me has some important information on how to get it working, so do refer to it if you don't know how to setup genmon yourself. My modification makes the text scroll, compacts it so it doesn't take up too much space, and move the play/pause clicking to be exclusive to the button itself.
 
 Inside of the file for the config are directories which point to the icons I'm using for the play/pause button, I have said icons in the assets directory in the repo, but make sure you change the config so it uses your own preferred directory (or text icon instead).
 
